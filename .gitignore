@@ -1,4 +1,16 @@
+# Ignorar carpeta de reportes
 reports/
-*.zip
+
+# Ignorar archivos temporales
 *.log
 *.bak
+*.zip
+
+# Ignorar artefactos de PowerShell
+*.ps1xml
+*.psd1
+*.psm1
+
+# Ignorar configuraciones de editores
+.vscode/
+.idea/
